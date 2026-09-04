@@ -1,6 +1,7 @@
 """
 Calculator Module - Basic arithmetic operations
 Students will extend this with more functions
+Fork Repo Owner: PES2UG24CS248
 """
 
 def add(a, b):
@@ -11,7 +12,7 @@ def subtract(a, b):
     """Subtract b from a"""
     return a - b
 
-def multiply(a, b): 
+def multiply(a, b):
     """Multiply two numbers with input validation and logging."""
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("Both arguments must be numbers")
